@@ -1,9 +1,13 @@
 import Image from "next/image";
+import HeadingSection from "./_components/HeadingSection";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start"></main>
-    </div>
+    <main className="flex flex-col justify-center items-center">
+      <HeadingSection />
+      <section className="h-[100dvh] pt-24">
+        <h1> Who am I</h1>
+      </section>
+    </main>
   );
 }
